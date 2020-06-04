@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="w-full markdown">
+  <h1>{{ page.title | escape }}</h1>
+  <div class="mt-2">
+    <time class="uppercase text-xs text-gray-500 font-bold">{{ page.date | date: "%b %-d, %Y" }}</time>
+    {% assign author = site.data.authors[page.author] %}
+    <span class="text-xs uppercase font-bold text-gray-500">• Written by <a class="uppercase text-xs font-bold hover:underline" href="https://twitter.com/{{author.twitter}}">{{ author.name }}</a></span>
+  </div>
+  {{ content }}
+</div>

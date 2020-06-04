@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+
+<h1>The blog</h1>
+<p>Hi, I am Håkan Nylén and I am the one behind Kindmetrics. Here can you read how it is to build an strictly privacy analytics in 2020.</p>
+
+<hr class="w-full bg-gray-100 my-12" style="height: 1px;">
+
+<ul class="container max-w-screen-sm mt-12">
+  {%- for post in site.posts -%}
+  <li class="mt-16 list-reset">
+    <time class="uppercase text-xs text-gray-500 font-bold">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h2 class="mt-1 text-2xl tracking-tight font-bold text-gray-900 sm:leading-none md:text-3xl">
+      <a class="text-gray-900" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+    {%- if site.show_excerpts -%}
+      <div class="mt-6 post-content">{{ post.excerpt }}</div>
+    {%- endif -%}
+    <div class="mt-10">
+      <a class="text-gray-900 uppercase text-sm tracking-wide font-black content-link" href="{{ post.url | relative_url }}">Continue reading -></a>
+    </div>
+  </li>
+  {%- endfor -%}
+</ul>
