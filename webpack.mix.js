@@ -46,7 +46,7 @@ mix
   //
   // More info and options (like React support) here:
   // https://github.com/JeffreyWay/laravel-mix/blob/master/docs/mixjs.md
-  .js("webpack/app.js", "assets/js")
+  .js("webpack/app.js", "js")
   // Customize postCSS:
   // https://github.com/JeffreyWay/laravel-mix/blob/master/docs/css-preprocessors.md#postcss-plugins
   .options({
@@ -57,9 +57,9 @@ mix
     clearConsole: false,
   })
   // Set public path so manifest gets output here
-  .setPublicPath("assets/js")
+  .setPublicPath("js")
   // Add assets to the manifest
-  .version(["assets/js"])
+  .version(["js"])
   // Reduce noise in Webpack output
   .webpackConfig({
     stats: "errors-only",
