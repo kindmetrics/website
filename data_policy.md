@@ -78,6 +78,7 @@ We have minimal amount of third parties processors:
 
 * Digitalocean - VPS cloud hosting - office in USA (servers are in Germany)
 * Mailjet - Email service - Office in France
+* faviconkit - Get Favicons for referrers - Malta
 
 We use no cdn, no server-side API calls with private info.
 
