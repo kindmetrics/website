@@ -29,4 +29,4 @@ jobs:
         uses: confact/jekyll-action@master
         env:
           JEKYLL_ENV: production
-          GH_PAGES_TOKEN: ${{ secrets.JEKYLL_PAT }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
