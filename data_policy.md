@@ -79,8 +79,11 @@ We have minimal amount of third parties processors:
 * Digitalocean - VPS cloud hosting - office in USA (servers are in Germany)
 * Mailjet - Email service - Office in France
 * faviconkit - Get Favicons for referrers - Malta
+* Github - We host our landing page on Github pages - USA - They use fastly cdn.
 
-We use no cdn, no server-side API calls with private info.
+We use no cdn on our app subdomain.
+
+We also don't send calls to third parties for getting info about you. The data that comes in stays there.
 
 ## Operator
 All data operator responsibility and questions are to:
