@@ -3,6 +3,10 @@
   @apply tracking-normal;
   @apply text-gray-900;
 
+  p {
+    @apply py-2;
+  }
+
   li {
     @apply list-disc;
     @apply list-inside;
