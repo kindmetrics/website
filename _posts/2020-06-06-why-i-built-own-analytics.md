@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why I built own Analytics tool"
+title:  "Why I built my own Analytics tool"
 date:   2020-06-06 09:06:13 +0200
 categories: why
 author: confact

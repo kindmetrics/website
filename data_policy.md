@@ -2,7 +2,7 @@
 layout: article
 title: "Data Policy"
 description: Our policy how we handle data and what we collect
-permalink: /data-policy
+permalink: /data-policy/
 ---
 
 # Data Policy
@@ -11,6 +11,20 @@ Kindmetrics is made to collect analysis but Kindmetrics can do this without coll
 
 ## Data we collect
 Even if we try to collect as little as possible we have to collect some to give you guys a good service. I split it up in 2 different chapters to make it extra clear.
+
+### Personal information
+We gather only this information about you as a user of Kindmetrics:
+
+* Name
+* email (sent through Mailjet)
+* payment information (Stripe)
+* password
+
+### Usage data
+We don't save your information like ip-addresses and unique device identifiers. We save this without any personal information, in an [one-hashed way](#web-analytics-and-gdpr-ccpa-and-other-privacy-regulations).
+
+### Location Data
+We do not use and store information about your location except for country of origin (we do not track IP address or anything more granular than country.
 
 ### Log data
 We don't log any personal data at all in our own logs. The logs only look like this:
@@ -33,6 +47,10 @@ Referrer is the url where the user came from to your site. We use it so you can 
 > We **receive and save** Page url
 
 We sent the path the visitor visited on your website. This is usually the page the javascript was triggered from, or if using SPA (single page application) on every `pushstate`
+
+#### user-agent
+> We **receive but **DO NOT** save user-agents
+We get the user-agent to calculate browser name, device type and operative system. We also use it for our one-way hash for making our own unique identifier for a user. After we all done this, we will throw it away.
 
 #### Browser
 > We **receive and save** browser
@@ -72,6 +90,7 @@ After that we throw the ip address away. We can't get the ip. Our unique hash fo
 (domain + IP address + browser)
 ```
 
+
 ## Data processors
 
 We have minimal amount of third parties processors:
@@ -80,6 +99,7 @@ We have minimal amount of third parties processors:
 * Mailjet - Email service - Office in France
 * faviconkit - Get Favicons for referrers - Malta
 * Github - We host our landing page on Github pages - USA - They use fastly cdn.
+* Stripe - payment processor - USA - Protected by EU-US Privacy shield
 
 We use no cdn on our app subdomain.
 
