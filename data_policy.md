@@ -24,7 +24,7 @@ We gather only this information about you as a user of Kindmetrics:
 We don't save your information like ip-addresses and unique device identifiers. We save this without any personal information, in an [one-hashed way](#web-analytics-and-gdpr-ccpa-and-other-privacy-regulations).
 
 ### Location Data
-We do not use and store information about your location except for country of origin (we do not track IP address or anything more granular than country.
+We do not use or store information about your location except for country of origin (we do not save IP-address or anything else than country.)
 
 ### Log data
 We don't log any personal data at all in our own logs. The logs only look like this:
@@ -50,6 +50,7 @@ We sent the path the visitor visited on your website. This is usually the page t
 
 #### user-agent
 > We **receive but **DO NOT** save user-agents
+
 We get the user-agent to calculate browser name, device type and operative system. We also use it for our one-way hash for making our own unique identifier for a user. After we all done this, we will throw it away.
 
 #### Browser
