@@ -26,8 +26,6 @@ permalink: /blog/:title
 url: "https://kindmetrics.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kindmetrics
 
-theme: minima
-
 collections:
   articles:
     output: true

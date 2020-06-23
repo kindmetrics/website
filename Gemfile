@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
   gem "jekyll-feed", "~> 0.9"
-  gem "jekyll-seo-tag", git: "https://github.com/jekyll/jekyll-seo-tag.git"
+  gem "jekyll-seo-tag"
   gem 'jekyll-sitemap', "~> 1.4"
   gem 'jekyll-minifier', "~> 0.1"
 end
