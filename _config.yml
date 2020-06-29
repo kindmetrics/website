@@ -24,7 +24,18 @@ description: Simple privacy-focused website analytics
 baseurl: "/" # the subpath of your site, e.g. /blog
 permalink: /blog/:title
 url: "https://kindmetrics.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kindmetrics
+twitter:
+  username: kindmetrics
+  card: summary_large_image
+
+logo: /assets/images/apple-icon.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/promo.png
+
 destination: ./build
 
 collections:
