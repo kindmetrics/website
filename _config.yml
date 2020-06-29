@@ -32,9 +32,10 @@ logo: /assets/images/apple-icon.png
 
 defaults:
   - scope:
-      path: ""
+      path: "index.html"
     values:
       image: /assets/images/promo.png
+      description: "Kindmetrics is a strictly privacy focused web analytics tool. All data is owned by you and privacy of both you and your visitors are respected."
 
 destination: ./build
 
