@@ -37,7 +37,7 @@ defaults:
       image: /assets/images/promo.png
       description: "Kindmetrics is a strictly privacy focused web analytics tool. All data is owned by you and privacy of both you and your visitors are respected."
 
-destination: ./build
+#destination: ./build
 
 collections:
   articles:

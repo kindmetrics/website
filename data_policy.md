@@ -17,7 +17,7 @@ We gather only this information about you as a user of Kindmetrics:
 
 * Name
 * email (sent through Mailjet)
-* payment information (Stripe)
+* payment information (Paddle)
 * password
 
 ### Usage data
@@ -97,10 +97,10 @@ After that we throw the ip address away. We can't get the ip. Our unique hash fo
 We have minimal amount of third parties processors:
 
 * Digitalocean - VPS cloud hosting - office in USA (servers are in Germany)
-* Mailjet - Email service - Office in France
+* Mailjet - Email service - France
 * faviconkit - Get Favicons for referrers - Malta
-* Github - We host our landing page on Github pages - USA - They use fastly cdn.
-* Stripe - payment processor - USA - Protected by EU-US Privacy shield
+* Dip - We host our landing page on Dip - EU - They use EU-based bunny cdn.
+* Paddle - payment processor - EU and UK
 
 We use no cdn on our app subdomain.
 

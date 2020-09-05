@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@bip-sh/cli": "^0.4.3",
     "babel-plugin-minify-dead-code-elimination": "^0.5.1",
     "babel-plugin-minify-simplify": "^0.5.1",
     "browser-sync": "^2.26.7",
