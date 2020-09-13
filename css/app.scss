@@ -6,8 +6,30 @@
 @import "tailwindcss/utilities";
 
 @import "css/base.scss";
-@import "css/markdown.scss";
 
 .kindblue {
   background-color: #55A0D7;
+}
+.text-7xl {
+  font-size: 4.5rem;
+}
+.-mt-30 {
+  margin-top: -14rem;
+}
+
+.mb-30 {
+  margin-bottom: 13rem;
+}
+
+body {
+  background-color: white;
+  background-color: rgba(248, 250, 252, 0.5);
+}
+
+.border-kind-gray {
+  border-color: #E6EBF1;
+}
+
+.bg-kind-blue {
+  background-color: #5969e2;
 }
