@@ -4,7 +4,22 @@ module.exports = {
   './index.html',
   './includes/*.html'],
   theme: {
-    extend: {},
+    typography: {
+      'lg': {
+        css: {
+          h1: {
+            lineHeight: '1.25',
+          },
+          a: {
+            color: '#1c64f2',
+            textDecoration: 'none',
+            hover: {
+              textDecoration: 'underline',
+            }
+          }
+        },
+      },
+    },
   },
   variants: {},
   plugins: [

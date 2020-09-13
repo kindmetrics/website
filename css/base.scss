@@ -14,10 +14,13 @@ h3 {
   @apply text-2xl;
   @apply font-bold;
 }
-
-body {
-  @apply bg-cool-gray-50
+article a {
+  @apply text-blue-600;
 }
+article a:hover {
+  @apply underline;
+}
+
 
 .gradient-color {
   background-color: #E2EDF3;

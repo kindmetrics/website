@@ -76,3 +76,7 @@ exclude:
   - .gitignore
   - vendor
   - webpack
+  - purgecss.config.js
+  - build.zip
+  - bip.json
+  - build
