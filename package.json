@@ -21,7 +21,7 @@
     "browser-sync": "^2.26.7",
     "compression-webpack-plugin": "^3.0.0",
     "laravel-mix": "^4.0.0",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "postcss-import": "^12.0.1",
     "postcss-scss": "^2.1.1",
     "purgecss": "^2.3.0",
